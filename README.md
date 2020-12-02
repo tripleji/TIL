@@ -41,16 +41,16 @@ purple- nobility, wealth
 pink- romance, affection
 brown- relxation, confidenct, comfort, reliablity
 
-무조건 아이콘을 사용해라- 모든내용을 함축시킬수있다
+무조건 아이콘을 사용해라!! 모든 내용을 함축 시킬 수 있다!!
 ```
 
 ##### Spacing&Layout
 ```
-whitespace를 줌으로써 페이지를 더 깔끔하고 보기 정갈하게 만들어준다
+whitespace를 적절하게 사용하면 페이지를 깔끔하게 만들어준다!
 ```
 ##### UX
 ```
-It' not just what it looks like and feels like. Design is how it work. -Steve Jobs 
+Design is not just what it looks like and feels like. Design is how it works. -Steve Jobs 
 ```
 
 -------------------------------------------------------------------------------------------------------------------
