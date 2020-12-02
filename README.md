@@ -6,6 +6,56 @@
 >틀린 부분이 있으면 언제든지 말해주세요!!
 -------------------------------------------------------------------------------------------------------------------
 
+
+## Responsive Web
+
+#### 반응형 웹 만들 때 팁!!
+
+##### Typography
+```
+pretty important, easy to read
+
+headline&title - 60~90px
+
+body-15~25px 
+
+line spacing - 120~150% easy to read
+
+per line - 45~90 characters!
+
+good fonts - sans-serif(더 자주 쓰임), serif ==>구글 폰트토 쓸만한게 많다
+```
+
+##### Color
+```
+flat ui colors
+
+adobe cc color
+
+never use original black color- not natural
+
+red-energetic
+orange- draw attention, creativity, confidence
+yellow- happiness, liveness, curiosity
+green- harmony, money
+blue-patience, peace, trust, honor, professional
+purple- nobility, wealth
+pink- romance, affection
+brown- relxation, confidenct, comfort, reliablity
+
+무조건 아이콘을 사용해라- 모든내용을 함축시킬수있다
+```
+
+##### Spacing&Layout
+```
+whitespace를 줌으로써 페이지를 더 깔끔하고 보기 정갈하게 만들어준다
+```
+##### UX
+>It' not just what it looks like and feels like. Design is how it work. -Steve Jobs 
+
+
+-------------------------------------------------------------------------------------------------------------------
+
 ## HTML
 
 #### 텍스트 관련 태그!
