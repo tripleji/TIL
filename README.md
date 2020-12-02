@@ -1,6 +1,7 @@
 # Today I Learned (TIL)
 >내가 직접 배운 내용을 정리해두는 학습 저장소  
->이해한 만큼만 직접 작성하겠습니다!!!!  
+>이해한 만큼만 직접 작성하겠습니다!!!!
+>틀린 부분이 있으면 언제든지 말해주세요!!
 -------------------------------------------------------------------------------------------------------------------
 
 ## HTML
@@ -104,4 +105,81 @@
 <tbody> - 표의 본문 부분
 
 <tfoot> - 표의 요약 부분
+```
+
+### 그 외 태그들!
+```
+<img src="경로 및 파일이름">, alt 속성은 이미지에대한 설명
+
+<a href="링크주소">
+
+<input> type은 checkbox or radio
+
+<fieldset>은 하나의 영역으로 묶고 외곽선을 그려구고 그룹에 제목(<legend>태그이용)을 붙여줄 수 있음
+
+<label> input의 id 설정을 같이하면 <input>태그와 짝을 이룰 수있다.
+
+<textarea> 글 작성할수있는 공간
+```
+
+## CSS
+
+### 기본 CSS
+
+```
+css의 뜻은 cascading style sheet 이다.
+
+형식  selector {
+	property: value;
+}
+
+text-align: 글씨정렬
+
+font-weight: 400-보통 700-굵게
+
+text-decoration-밑줄 이런 효과 주는거(underline, overline, line-through, wavy)
+
+line-height- 문단 간격
+
+letter-spacing- 글자 간 간격
+
+font-family -글씨 폰트
+
+universal selector= *{	} 전체에 적용
+
+element selector= 버튼같은거 선택한 부분에만 적용
+
+id selector= 특정 부분만 효과 넣고 싶을때 사용하면 좋다 #~~~{	}
+
+class selector=중복되는 부분을 동시에 적용하고 싶을때 사용하면 좋음  .~~~{	}
+
+Descendent selector= 내부에 있는 태그에 효과를 적용하고 싶을때
+
+Adjacent selector= 같은 섹션안에 바로 효과를 주고 싶을 때 ~~+~~{	}
+
+Direct Child=전체 효과가 있는 상태서 특정부분만 효과주고 싶을때 ~~>~~{	}
+
+Attribute selector= 타입이름을 넣어서 원하는 부분에만 효과주고 싶을때  ~~[~~="~~""]{	}
+```
+
+### Pseudo Class
+
+```
+1. 효과를 줄때 겹치는거는 가장 밑에 부분에있는 효과가 적용된다!!!
+
+2. 같은 클래스 및 타입에 효과를 줄때 더 디테일하게 설정한거가 먼저 적용된다!!!
+
+ 적용 순서 => inline>ID>CLASS>ELEMENT 
+
+!important쓰면 다무시하고 우선순위 1위
+
+:hover = 선택햇을때 명암생기는 효과
+
+:active= 클릭햇을때 생기는 효과
+
+:nth-of-type(숫자)= 선택한 번호에 해당하는 라인의 색깔을 바꿔줌. 단!숫자n으로하면 숫자의배수 라인의 색깔 넣어줌
+
+::first-letter = 글자의 첫글자마다 효과 주는거
+
+::selection =드래그할때 색깔 효과주는거
 ```
