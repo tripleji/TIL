@@ -9,8 +9,6 @@
 
 ## Responsive Web
 
-#### 반응형 웹 만들 때 팁!!
-
 ##### Typography
 ```
 pretty important, easy to read
@@ -51,8 +49,9 @@ brown- relxation, confidenct, comfort, reliablity
 whitespace를 줌으로써 페이지를 더 깔끔하고 보기 정갈하게 만들어준다
 ```
 ##### UX
->It' not just what it looks like and feels like. Design is how it work. -Steve Jobs 
-
+```
+It' not just what it looks like and feels like. Design is how it work. -Steve Jobs 
+```
 
 -------------------------------------------------------------------------------------------------------------------
 
