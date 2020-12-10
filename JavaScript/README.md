@@ -163,3 +163,123 @@ function max(a, b) {
     return (a>b) ? a : b;
 }
 ```
+
+#### Arrays
+
+```
+1. add
+
+const numbers = [3, 4];
+
+끝에다 추가
+numbers.push(5, 6);
+
+처음에다 추가
+numbers.unshift(1, 2);
+
+중간에다가 추가
+numbers.splice(시작인덱스, 지울인덱스수, 추가할엘리먼트);
+
+console.log(numbers);   1 2 3 4 5 6
+
+2. remove
+
+const numbers = [1, 2, 3, 4];
+
+끝 제거
+numbers.pop(); 1 2 3
+
+처음 제거
+numbers.shift(); 2 3
+
+중간 제거
+numbers.splice(시작인덱스, 지울인덱스수);
+
+3. emptying an Array
+
+let numbers = [1, 2, 3, 4];
+
+방법 1
+numbers =[ ];
+
+방법 2
+numbers.length = 0;
+
+방법 3
+numbers.splice(0, numbers.length);
+
+방법 4
+while (numbers.length >0)
+numbers.pop( );
+
+4. Combine&Slice Array
+
+const first = [1, 2, 3];
+const second = [4, 5, 6];
+
+const combined = first.concat(second); 123456
+
+const slice = combined.slice(2, 4); 34 
+
+5. Elements of an Array
+
+const numbers = [1, 2, 3];
+
+const allPositive = numbers.every(function(value){
+	return value >= 0;
+});
+
+console.log(allPositive);  true
+
+6. Filtering an Array
+
+const numbers = [1, -1, 2, 3];
+
+numbers.filter(n => n>=0);
+
+console.log(filtered); 1 2 3
+
+7. Mapping an Array
+
+const numbers = [1, -1, 2, 3];
+
+const filtered = numbers.filter(n => n>=0);
+
+const items = filtered.map(n => '<li>' + n  + '</li>)
+
+console.log(items); <li>태그사이에 1 2 3 출력이된다
+```
+
+####Functions
+
+```
+1. Declaration & Expression
+
+Function Declaration 방식
+
+function walk( ) {
+console.log('walk');
+}
+
+Function Expression 방식
+
+let run = function( ) { 
+console.log('run');
+};
+run( );
+
+2. Hoisting
+walk( ); walk이 출력됨
+
+function walk( ) {
+console.log('walk');
+}
+
+run ( ); run이 출력안됨
+
+let run = function( ) { 
+console.log('run');
+};
+run( );
+
+```
