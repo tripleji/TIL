@@ -250,7 +250,7 @@ const items = filtered.map(n => '<li>' + n  + '</li>)
 console.log(items); <li>태그사이에 1 2 3 출력이된다
 ```
 
-####Functions
+#### Functions
 
 ```
 1. Declaration & Expression
