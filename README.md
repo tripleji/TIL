@@ -8,5 +8,6 @@
 
 
 ## List
-
-
+* [HTML](https://github.com/tripleji/TIL/tree/main/HTML)
+* [CSS](https://github.com/tripleji/TIL/tree/main/CSS)
+* [JavaScript](https://github.com/tripleji/TIL/tree/main/JavaScript)
